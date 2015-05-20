@@ -1,7 +1,7 @@
 ## CodeBook for Getting and Cleaning Data Course Project
 
 The original training and test data sets have 561 variables. After extracting the mean 
-and standard deviation only for each measurement, 66 variables of 'feature' data set
+and standard deviation only for each measurement, 66 variables of 'features' data set
 was formulated. The 66 variable names are as follows:
 
    tBodyAcc-mean-X,
@@ -71,9 +71,9 @@ was formulated. The 66 variable names are as follows:
    fBodyGyroJerkMag-mean,
    fBodyGyroJerkMag-std
 
-After merging subject, activity, and feature data sets, a new data set, allData was
+After merging subject, activity, and features data sets, a new data set, allData was
 formulated with 68 variables. The 68 variable names are added as column names to
-the data set.  The tidy data set, finalData was formulated from allData, with the
+the data set.  The tidy data set (finalData) was formulated from allData with the
 average of each variable for each activity and each subject.
 
 allData has 10299 obs. of  68 variables, while finalData has 180 obs. of 68 variables.
