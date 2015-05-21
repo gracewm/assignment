@@ -61,7 +61,7 @@ allData <- cbind(subject, activity, features)
 # Get the mean for each activity and each subject by using ddply() function
 # Result: 180 obs. of  68 variables
 library(plyr)
-finalData <- ddply(allData, c(.(subject), .(activity)), numcolwise(mean))
+finalData <- ddply(allData, .(subject, activity), numcolwise(mean))
 
 # Write a txt file
 write.table(finalData, file = "./HAR/finalData.txt", sep = " ",  row.names=FALSE)
