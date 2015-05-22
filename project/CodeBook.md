@@ -71,9 +71,9 @@ was formulated. The 66 variable names are as follows:
    fBodyGyroJerkMag-mean,
    fBodyGyroJerkMag-std
 
-After merging subject, activity, and feature data sets, a new data set, allData was
+After merging subject, activity and features data sets, allData (a new data set) was
 formulated with 68 variables. The 68 variables, including the variables for the activity
-and subject data sets, are added as column names to the allData data set.
+and subject data sets, are added as column names to the allData.
 The labels for the values of 'activity' column are as follows:
 
 1 = walking;
