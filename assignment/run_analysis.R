@@ -63,6 +63,10 @@ allData <- cbind(subject, activity, features)
 library(plyr)
 finalData <- ddply(allData, .(subject, activity), numcolwise(mean))
 
+# Change 'activity' column values to descriptive activity names
+x <- rep(c("walking", "walking_upstairs", "walking_downstairs", "sitting", "standing", "laying"), 30)
+finalData[,2] <- x
+
 # Write a txt file
 write.table(finalData, file = "./HAR/finalData.txt", sep = " ",  row.names=FALSE)
 
