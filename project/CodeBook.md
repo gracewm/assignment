@@ -71,10 +71,20 @@ was formulated. The 66 variable names are as follows:
    fBodyGyroJerkMag-mean,
    fBodyGyroJerkMag-std
 
-After merging subject, activity, and features data sets, a new data set, allData was
-formulated with 68 variables. The 68 variable names are added as column names to
-the data set.  The tidy data set (finalData) was formulated from allData with the
-average of each variable for each activity and each subject.
+After merging subject, activity, and feature data sets, a new data set, allData was
+formulated with 68 variables. The 68 variables, including the variables for the activity
+and subject data sets, are added as column names to the allData data set.
+The labels for the values of 'activity' column are as follows:
+
+1 = walking
+2 = walking_upstairs
+3 = walking_downstairs
+4 = sitting
+5 = standing
+6 = laying
+
+finalData (the tidy data set) was formulated from allData with the average of each 
+variable for each activity and each subject.
 
 allData has 10299 obs. of  68 variables, while finalData has 180 obs. of 68 variables.
  
