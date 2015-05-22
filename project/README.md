@@ -29,5 +29,8 @@ Merged all data sets (features, subject and activity) into one data set and name
 #### Step 4:
 Loaded plyr package to use ddply()function.
 Created a second, independent tidy data set with the average of each variable for each activity
-and each subject, and named it finalData. For uploading on the assignment box, finalData.txt
-file was created.
+and each subject, and named it finalData. 
+Changed 'activity' column values to descriptive activity names.
+
+#### Step 5:
+For uploading on the project assignment box, finalData.txt file was created.
