@@ -4,8 +4,8 @@ The original training and test data sets have 561 variables. After extracting th
 and standard deviation only for each measurement, 66 variables of 'features' data set
 was formulated. The 66 variable names are as follows:
 
-   tBodyAcc-mean-X,
-   tBodyAcc-mean-Y,
+   tBodyAcc-mean-X</br>
+   tBodyAcc-mean-Y</br>
    tBodyAcc-mean-Z,
    tBodyAcc-std-X,
    tBodyAcc-std-Y,
