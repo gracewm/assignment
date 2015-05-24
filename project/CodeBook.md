@@ -72,7 +72,7 @@ was formulated. The 66 variable names are as follows:
  fBodyGyroJerkMag-std
 
 After merging subject, activity and features data sets, allData (a new data set) was
-formulated with 68 variables. The 68 variables, including the variables for the activity
+formulated with 68 variables.</br> The 68 variables, including the variables for the activity
 and subject data sets, are added as column names to the allData.
 
 finalData (the tidy data set) was formulated from allData with the average of each
